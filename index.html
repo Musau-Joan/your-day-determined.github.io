@@ -2,83 +2,140 @@
 <html>
     <head>
         <title>Your-Day-Determined</title>
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
     </head>
     <body>
         <div class="main">
-            <!--name of the site-->
-            <h1><strong><em>Your-Day-Determined</em></strong></h1>
-        </div>
-        <div class="container">
-        <!--what the app does-->
-            <h2><em>What's the buzz?</em></h2>
-                <p>Welcome to the know-thyself-better club!</p>
-                <p>Congratulations on taking the first step towards knowing more about yourself.</p>
-                <p>Here, we are able to take a trip down memory lane for you to find out what beautiful day you first graced this earth.</p>
-        </div>
-        <br>
-        <div class="box-1">
-            <h3><em>Where is the fun?</em></h3>
-                <p>We like to make things a lot more interesting.</p>
-                <p>Let's do this Ghanian-style!</p>
-                <p>On top of telling you your birth day, we will give you an Akan name.</p>
+                <!--name of the site-->
+                <h1><strong><em>Your-Day-Determined</em></strong></h1>
+                <img src="image/time.jpg" id="disappearing"/>
+                    <!--what the app does-->
+                    <div id="box">
+                    <br>
+                        <h2><em>What's the buzz?</em></h2>
+                            <p>Welcome to the know-thyself-better club!</p>
+                            <p>Congratulations on taking the first step towards knowing more about yourself.</p>
+                            <p>Here, we are able to take a trip down memory lane for you to find out what beautiful day you first graced this earth.</p>
+                    </div>
         </div>
         <br>
-        <div class="box-2">
-            <h4><em>What is an Akan name?</em></h4>
-            <p>Akan names are derived from Ghanian culture.</p>
-            <p>Frequently in Ghana, children are given their first name as a 'day-name' which corresponds to the day in the week they were born.</p>
-            <p>Here are Ghanian day names based on gender.</p> 
+        <br>
+              <div class="box">
+                <div class="box-1">
+                    <div class="overlay">
+                        <img src="image/excited.jpg">
+                            <div class="text">
+                            <h3><em>Where is the fun?</em></h3>
+                            <p>We like to make things a lot more interesting.</p>
+                            <p>Let's do this Ghanian-style!</p>
+                            <p>On top of telling you your birth day, we will give you an Akan name.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <br>
+                <div class="box-1">
+                    <div class="overlay">
+                        <div id="overlay">
+                            <img src="image/ghana b.jpg.crdownload">
+                            <div class="middle">
+                                <div class="text">
+                                    <h4><em>What is an Akan name?</em></h4>
+                                    <p>Akan names are derived from Ghanian culture.</p>
+                                    <p>Frequently in Ghana, children are given their first name as a 'day-name' which corresponds to the day in the week they were born.</p>
+                                    <p>Here are Ghanian day names based on gender.</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
             <li>
                 <div class="block">
-                    <h5><em>Male</em></h5>
-                        <ul>
+                    <div class="overlay-1">
+                        <img src="image/ghanaia man.jpg">
+                        <div class="text-1">
+                        <h5><em>Male</em></h5>
+                            <ol>
                     
-                            <li>Sunday : Kwasi</li>
-                            <li>Monday : Kwadwo</li>
-                            <li>Tuesday : Kwabena</li>
-                            <li>Wednesday : Kwaku</li>
-                            <li>Thursday : Yaw</li>
-                            <li>Friday : Kofi</li>
-                            <li>Saturday : Kwame</li>
-                        </ul>
+                                <li>Sunday : Kwasi</li>
+                                <li>Monday : Kwadwo</li>
+                                <li>Tuesday : Kwabena</li>
+                                <li>Wednesday : Kwaku</li>
+                                <li>Thursday : Yaw</li>
+                                <li>Friday : Kofi</li>
+                                <li>Saturday : Kwame</li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
             </li>
             <li>
                 <div class="block">
-                    <h5><em>Female</em></h5>
-                    <ul>
-                        <li>Sunday : Akosua</li>
-                        <li>Monday : Adwoa</li>
-                        <li>Tuesday : Abenaa</li>
-                        <li>Wednesday : Akua</li>
-                        <li>Thursday : Yaa</li>
-                        <li>Friday : Afua</li>
-                        <li>Saturday : Ama</li>
-                    </ul>
+                    <div class="overlay-1">
+                        <img src="image/ghanian woman.jpg">
+                        <div class="text-1">
+                        <h5><em>Female</em></h5>
+                        <ol>
+                            <li>Sunday : Akosua</li>
+                            <li>Monday : Adwoa</li>
+                            <li>Tuesday : Abenaa</li>
+                            <li>Wednesday : Akua</li>
+                            <li>Thursday : Yaa</li>
+                            <li>Friday : Afua</li>
+                            <li>Saturday : Ama</li>
+                        </ol>
+                        </div>
+                    </div>
                 </div>
             </li>
+            <p>Kindly fill up the form below with the information required.</p>
        </div>
-       <form>
+       
+        <form>
             <div class="block-a">
+                <h3>Our mini form</h3>
                 <label for="fname">First name:</label><br>
-                <input type="text" id="fname" name="fname"><br>
+                <input type="text" id="fname" name="fname" placeholder="Your first name..."required><br>
             </div>
             <div class="block-a">
                 <label for="lname">Last name:</label><br>
-                <input type="text" id="lname" name="lname"><br>
+                <input type="text" id="lname" name="lname" placeholder="Your last name..."required><br>
             </div>
             <br>
-                <input type="radio" id="male" name="gender" value="male">
-                <label for="male">Male</label><br>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female</label><br>
-                <input type="radio" id="other" name="gender" value="other">
-                <label for="other">Rather not say</label>
+                <label for="gender">Kindly select your gender:</label>
+
+                <select name="gender" id="gender">
+                    <option value="---">---</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Transgender">Transgender</option>
+                    <option value="Rather not say">Rather not say</option>
+                </select>
                 <br>
+                <br>
+                <label for="birth-date" id="birth-date">Input your date of birth</label><br>
+                <p>Month (1-12): <input TYPE="text" NAME="month" SIZE="2" placeholder="Numeric"> </p>
+                <p>Day of Month (1-31): <input TYPE="text" NAME="day" SIZE="2"> </p>
+                <p>Year (eg. 1988): <input TYPE="text" NAME="year" SIZE="4"> </p>
+                
+                <label>E-mail address:</label><br>
+                <input type=email name="email-address" autocomplete="email"required><br>
+                <br>
+                <label>Mobile-number:</label><br>
+                <input type="tel" id="Mobile.no" name="Mobile.no" placeholder="1234-56-78-90" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{2}"required><br>
                 <input type="submit" value="Submit">
+                <br>
+                <br>
+                <label>Your-Day-Determined:</label><br>
+                <input type="text" name="result1" size="18"><br>
+                <br>
+                <label>Your-Akan-Name:</label></form>
+                <input type="text" name="result2" size="18">
        </form>
+      </div>
         
 
-
+      <script src="JS/script.js"></script>
     </body>
 </html>

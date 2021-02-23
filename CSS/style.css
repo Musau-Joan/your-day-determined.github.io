@@ -1,22 +1,260 @@
-body{
-    background-color: rgb(1, 15, 31);
-    color:rgb(253, 247, 247);
-    font-family:cursive;
-    font-size: 16px;
-    font-weight:large;
-    line-height:1.63em;
-    margin:3;
+
+#box{
+    width:90%;
+    margin:5px;
+    padding:10px;
+    border:5px rgb(7, 7, 7);
+    border-radius:15px;
+    text-align: center;
 }
+.box-1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800px;
+    font-style:italic;
+    text-decoration: underline rgb(2, 2, 2);
+    text-transform:inherit;
+}
+#overlay h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:800px;
+    font-style:italic;
+    text-decoration: underline rgb(7, 7, 7);
+    text-transform:inherit;
+}
+    
 body h1{
     font-family: cursive;
-    font-weight:2000px;
-    font-size: 60px;
+    font-weight:1000px;
     font-style:italic;
-    text-decoration:wavy rgb(245, 243, 243);
+    text-decoration:wavy rgb(3, 3, 3);
     text-transform:inherit;
     letter: spacing 0.1em;
     word-spacing: 0.5em;
     text-align: center;
+} 
+#box h2{
+    font-family: cursive;
+    font-weight:1000px;
+    font-style:italic;
+    text-decoration: underline rgb(5, 5, 5);
+    text-transform:inherit;
+    letter: spacing 0.1em;
+    word-spacing: 0.25em;
+}
+.block ol{
+    list-style:none;
+}
+.b0x-1{
+    width:800px;
+    height:500px;
+    border:1px solid #000;
+    margin-top:30px;
+    position: relative;
+}
+.box-1 h4{
+    font-family: cursive;
+    font-weight:1000px;
+    font-style:italic;
+    text-decoration: underline rgb(14, 13, 14);
+    text-transform:inherit;
+    letter: spacing 0.1em;
+    word-spacing: 0.25em;
+}
+p.box-1{
+    font-family: cursive;
+    font-weight:1000px;
+    font-style:italic;
+    text-transform:inherit;
+    letter: spacing 0.1em;
+    word-spacing: 0.25em;
+    
+}
+.box-1 img{
+    float: left;
+    
+}
+.box-1{
+    float:left;
+    width:50%;
+    border:1px grey;
+    padding:5px;
+    box-sizing: border-box;
+    height:500px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.block{
+    float:left;
+    width:50%;
+    border:1px grey;
+    padding:5px;
+    box-sizing: border-box;
+    height:500px;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+body ol{
+    list-style:none;
 }
 
+.container img{
+    float: right;
+}
+.main img{
+    max-width:100%;
+    height:auto;
+}
+.main img{
+    display:-ms-flexbox;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+}
+.box-1{
+    position:relative;
+    width:50%;
+}
+.box-1 img{
+    display:block;
+    width:100%;
+    height:auto;
+    border-radius: 10px;
 
+}
+.overlay{
+    position:absolute;
+    bottom:100%;
+    left:0;
+    right:0;
+    background-image:image("excited.jpg") ;
+    overflow: hidden;
+    width:100%;
+    height: 0;
+    transition: .5s ease;
+}
+.box-1:hover .overlay{
+    bottom:0;
+    height:100%;
+}
+.text{
+    white-space: nowrap;
+    color:rgb(8, 8, 8);
+    font-size: 14px;
+    font-weight:900;
+    position:absolute;
+    overflow: hidden;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+}
+.block{
+    position:relative;
+    width:50%;
+}
+.block img{
+    display:block;
+    width:100%;
+    height:auto;
+
+}
+.overlay-1{
+    position:absolute;
+    bottom:100%;
+    left:0;
+    right:0;
+    background-image:image();
+    overflow: hidden;
+    width:100%;
+    height: 0;
+    transition: .5s ease;
+}
+.block:hover .overlay-1{
+    bottom:0;
+    height:100%;
+}
+.text-1{
+    white-space: nowrap;
+    color:rgb(5, 5, 5);
+    font-size: 20px;
+    font-weight: 900;
+    position:absolute;
+    overflow: hidden;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+}
+
+.#box{
+    position:relative;
+    left: 120px;
+    top: 20px;
+    font-weight: normal;
+}
+.main img {
+  background-image: image(melanin4.jpg
+  )
+
+  height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body{
+    background-color:rgb(2, 2, 26) ;
+    color: lightgrey;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #124c81;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4c7adf;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
